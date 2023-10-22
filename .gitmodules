@@ -1,0 +1,3 @@
+[submodule "themes/lukes_recipes_theme"]
+	path = themes/lukes_recipes_theme
+	url = git@github.com:lbeuk/lukes_recipes_theme.git
