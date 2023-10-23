@@ -3,6 +3,18 @@
 	"tasks": [
 		{
 			"type": "npm",
+			"script": "install",
+			"path": "themes/lukes_recipes_theme",
+			"group": "clean",
+			"problemMatcher": [],
+			"label": "Install npm dependencies",
+			"detail": "install dependencies from package",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		},
+		{
+			"type": "npm",
 			"script": "watch-tw",
 			"path": "themes/lukes_recipes_theme",
 			"group": {
@@ -14,7 +26,8 @@
 			"detail": "npx tailwindcss -i ./static/css/tw.css -o ./static/css/style.css -w --minify",
 			"runOptions": {
 				"runOn": "folderOpen"
-			}
+			},
+		"dependsOn":["Install npm dependencies"]
 		},
 		{
 			"type": "shell",
@@ -23,7 +36,6 @@
 			"runOptions": {
 				"runOn": "folderOpen"
 			}
-		},
 		}
 	]
 }

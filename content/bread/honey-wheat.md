@@ -8,11 +8,11 @@ recipe:
     - Autolyse Mix:
         Ingredients:
             - Hard white spring wheat flour, whole grain:
-                Amount: 720g
+                Amount: 900g
             - Water:
-                Amount: 520g
+                Amount: 800g
         Instructions:
-            - Mix until combined.
+            - Mix flour and water with hand until combined.
             - Let sit for one hour.
         Time:
             - Active: 5m
@@ -24,33 +24,34 @@ recipe:
             - Active dry yeast:
                 Amount: 2T
         Instructions:
-            - Mix until disolved.
-            - Wait 10 minutes until sponges.
+            - Mix yeast into water until disolved.
+            - Wait 10 minutes until yeast sponges. If the yeast does not look active by the end of 10 minutes, it is probably dead.
         Time:
-            - Active: 1m
+            - Active: 2m
             - Inactive: 10m
     - Honey Wheat Bread:
         Primary: Yes
-        Dependencies:
-            - Autolyse Mix
-            - Yeast Sponge
         Ingredients:
-            - Autolyse Mix:
+            - Autolyse mix:
                 CREF: Autolyse Mix
                 Amount: All
-            - Yeast Sponge:
+            - Yeast sponge:
                 CREF: Yeast Sponge
                 Amount: All
-            - Salt:
+            - Kosher salt:
                 Amount: 1T
             - Honey:
                 Amount: 1/2C
-            - EV Olive Oil:
+            - EV olive oil:
                 Amount: 1/2C
+                Note: Any vegetable oil should suffice, I like to use EVO.
             - Hard white spring wheat flour, whole grain:
                 Amount: 100g
                 Note: For dusting the surface, anticipate most of this being absorbed into the dough.
         Instructions:
+            - >
+                Mix oil and honey together in the measuring cup, I find that this helps loosen
+                up the honey so that less of it sticks to the walls of the cup.
             - >
                 Combine all ingredients (except the dusting flour) by forming your
                 hand into a flat hook shape and mixing. Mix until dough is firm enough
