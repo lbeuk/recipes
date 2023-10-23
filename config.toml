@@ -1,4 +1,0 @@
-baseURL = 'https://lukes.recipes/'
-languageCode = 'en-us'
-title = "Luke's Recipes"
-theme = "lukes_recipes_theme"

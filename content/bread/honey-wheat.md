@@ -2,7 +2,6 @@
 date: 2023-10-22T13:00:00Z
 draft: false
 author: "Luke Beukelman"
-category: "bread"
 
 title: "Honey Wheat Bread"
 recipe:
