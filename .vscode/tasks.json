@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "watch-tw",
+			"path": "themes/lukes_recipes_theme",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "Tailwinds watch",
+			"detail": "npx tailwindcss -i ./static/css/tw.css -o ./static/css/style.css -w --minify",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		},
+		{
+			"type": "shell",
+			"command": "hugo server",
+			"label": "Compile hugo",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		},
+		}
+	]
+}
