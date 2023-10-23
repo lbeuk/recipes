@@ -8,7 +8,7 @@ recipe:
     - Autolyse Mix:
         Ingredients:
             - Hard white spring wheat flour, whole grain:
-                Amount: 900g
+                Amount: 1100g
             - Water:
                 Amount: 800g
         Instructions:
@@ -20,7 +20,7 @@ recipe:
     - Yeast Sponge:
         Ingredients:
             - Warm water:
-                Amount: 80g
+                Amount: 100g
             - Active dry yeast:
                 Amount: 2T
         Instructions:
@@ -46,7 +46,7 @@ recipe:
                 Amount: 1/2C
                 Note: Any vegetable oil should suffice, I like to use EVO.
             - Hard white spring wheat flour, whole grain:
-                Amount: 100g
+                Amount: 300g
                 Note: For dusting the surface, anticipate most of this being absorbed into the dough.
         Instructions:
             - >
@@ -62,16 +62,16 @@ recipe:
                 picks up and incorperated the flour.
             - >
                 Knead the dough ball using a stretch and fold method for roughly 10
-                minutes. The ending dough ball should be able to be stretched very thin,
+                minutes. The ending dough ball should be able to be stretched thin,
                 although not quite forming a window pane as per the nature of whole wheat
-                flour. Cover the ball in flour as it starts sticking to your hands.
+                flour. Continue to cover the ball in flour as it starts sticking to your hands.
             - >
                 Oil the outside of the dough ball and place in a covered bowl to rise
                 for an hour, or until dough has roughly doubled in volume.
             - >
-                Punch the dough ball down, and split into 2-3 equal portions, form
-                into loafs by pulling the dough ball and tucking under. Place in well
-                oiled loaf pans, and let rise for another 30 minutes.
+                Punch the dough ball down, and split and shape portions for the desired shape
+                (makes ~3 loaves). For loaves, shape by stretching the dough under itself and
+                tucking in the bottom center.
             - >
                 In the meantime, start preheating the oven to 350 degrees F.
             - >
@@ -81,3 +81,32 @@ recipe:
             - Active: 20m
             - Inactive: 2h
 ---
+
+This is the sandwhich loaf I was raised on, and is the primary recipe I continue to
+use for day-to-day bread consumption. The bread comes out tender and light, slightly
+sweet from the honey, and without the bitter taste that often comes from whole whea
+bread thanks to using hard white wheat, rather than hard red wheat (which is often
+the base for commercial bread flours).
+
+![Fresh from the oven](./fresh_honey_wheat.webp)
+
+The recipe usually yields enough dough for 3 loaves of roughly 3lb 10oz (loaf size
+will vary depending on the pan you use to bake in), plus a little extra that I will
+use to make snack-sized buns in a muffin pan. This recipe also works well for baking
+buns - just shape the dough into buns on a sheet pan (air bake pans will help prevent
+the bottoms from burning).
+
+I use freshly ground prarie gold (hard white spring wheat) berries for my flour. I
+found I could get 2lb bags from Natural Grocers for $1/lb, which is the cheapest
+I've been able to find them. My mom used to get wheat in special orders from UNFI,
+but I was unable to find Prarie Gold in our regional UNFI catalogue.
+
+Before mixing all of the components, I mix together the flour and water to form an
+autolyse, which aids in the formation of gluten and softening the bran in the flour.
+This results in slightly reduced kneading times. The autolyse can be let to sit for
+one to three hours, the longer the better.
+
+After a few runs where the bottom of my loaf clung to the bottom of the loaf pan,
+despite my best effort to thuroughly oil the pan, I switched over to using just
+enough parchment paper to cover the bottom of the pan, while still oiling the sides
+(you can use a knife or spatula to free the sides if necessary).
