@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="container mx-auto">
+    {{ partial "post_banner.html" . }}
+    {{ .Content }}
+    <div>
+        {{ partial "recipes/recipe.html" . }}
+
+    </div>
+</article>
+
+
+{{ end }}

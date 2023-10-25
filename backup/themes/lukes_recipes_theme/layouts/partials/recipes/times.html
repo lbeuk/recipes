@@ -1,0 +1,9 @@
+<ul>
+    {{ range $k, $v := .}}
+    <li class="{{ if eq $k `total`}}border-t-2 border-current{{ end }}">
+      
+      <span class="font-bold">{{ $k | strings.FirstUpper }}: </span>
+      <span>{{$v | duration "second"}}</span>
+    </li>
+    {{ end }}
+  </ul>

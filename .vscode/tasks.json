@@ -28,14 +28,6 @@
 				"runOn": "folderOpen"
 			},
 		"dependsOn":["Install npm dependencies"]
-		},
-		{
-			"type": "shell",
-			"command": "hugo server",
-			"label": "Compile hugo",
-			"runOptions": {
-				"runOn": "folderOpen"
-			}
 		}
 	]
 }

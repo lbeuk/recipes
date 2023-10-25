@@ -1,0 +1,70 @@
+{{ range $name, $recipe := . }}
+
+{{$parsed_name := replace $name " " "_ "| title }}
+
+{{ $times := newScratch}}
+{{ $times.Set "total" 0 }}
+{{ range .Time }}
+{{ range $name, $dur := . }}
+{{ $parsed_dur := (time.ParseDuration $dur).Seconds }}
+{{ $times.Add "total" $parsed_dur}}
+{{ $times.Set $name $parsed_dur}}
+{{ end }}
+{{ end }}
+
+<div id="{{ $parsed_name }}">
+    <div id="{{ $name }}" class="relative isolate overflow-hidden">
+        {{ $h_class := "text-2xl font-bold tracking-tight sm:text-3xl mb-2 w-full" }}
+        {{ $div_class := "flex flex-col md:flex-row bg-stone-200"}}
+        {{ if .Primary}}
+        {{ $h_class = "text-4xl font-bold tracking-tight sm:text-5xl mb-2 w-full" }}
+        {{ $div_class = "flex flex-col md:flex-row bg-stone-300"}}
+        {{ end }}
+
+        <h2 class="{{ $h_class }}">{{$name}}</h2>
+        <div class="{{ $div_class }}">
+            
+                <div class="flex flex-col bg-slate-50 w-full md:w-72 shrink-0">
+                    <div class="p-4 border-solid border-2 border-b-0 border-slate-900 grow">
+                        <h1>Ingredients</h1>
+                        <ul class="list-disc list-inside divide-y divide-dashed divide-slate-900">
+                            {{ range .Ingredients}}
+                            {{ range $ingredient,$details := . }}
+                            <li><span class="font-bold">{{$details.Amount}}</span>
+                                {{ if $name := $details.CREF }}
+                                {{$parsed_name := replace $name " " "_ "| title }}
+                                <a href="#{{ $parsed_name }}" class="text-blue-900">{{$ingredient}}</a>
+                                {{ else }}
+                                {{$ingredient}}
+                                {{ end }}
+                                {{ if $details.Note }}
+                                <br />
+                                <p class="italic pl-5 border-l-2 border-current">Note: {{$details.Note}}</p>
+                                {{ end }}
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+
+                    </div>
+                    <div class="p-4 border-solid border-2 border-slate-900">
+                        {{ partial "recipes/times.html" $times.Values }}
+                    </div>
+                </div>
+                <div class="p-4 grow">
+                    <h2 class="text-2xl font-bold tracking-tight sm:text-3xl border-b-2 border-current">Instructions
+                    </h2>
+                    <div>
+                        <ol class="list-decimal list-inside divide-y divide-dashed divide-current leading-7">
+                            {{ range .Instructions }}
+                            <li>{{.}}</li>
+                            {{ end }}
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{ end }}

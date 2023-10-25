@@ -1,0 +1,50 @@
+<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:mx-0">
+      <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">{{ .Title }}</h2>
+      {{if .Params.description }}
+      <p class="mt-6 text-lg leading-8 text-gray-300">{{ .Params.description }}</p>
+      {{ end }}
+    </div>
+    <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+      <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+        <div class="flex flex-col">
+          <dt class="text-2xl font-bold leading-9 tracking-tight text-white">Author</dt>
+          <dd class="text-base leading-7 text-gray-300">{{ .Params.author }}</dd>
+        </div>
+        {{ if .Params.recipe }}
+        {{ $times := newScratch}}
+        {{ $times.Set "total" 0 }}
+        {{ range .Params.recipe }}
+        {{ range . }}
+        {{ range .Time }}
+        {{ range $name, $dur := . }}
+        {{ $in_map := false}}
+        {{ range $iname, $idur := $times.Values }}
+        {{ if eq $iname $name}}
+        {{ $in_map = true}}
+        {{ end }}
+        {{ end }}
+        {{ $parsed_dur := (time.ParseDuration $dur).Seconds }}
+        {{ $times.Add "total" $parsed_dur}}
+        {{ if $in_map }}
+        {{ $prev := $times.Get $name }}
+        {{ $times.Add $name $parsed_dur}}
+        {{ else}}
+        {{ $times.Set $name $parsed_dur}}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        {{ end }}
+        <div class="flex flex-col">
+          <dt class="text-2xl font-bold leading-9 tracking-tight text-white">Time</dt>
+          <dd class="text-base leading-7 text-gray-300">
+            {{partial "recipes/times.html" $times.Values}}
+          </dd>
+        </div>
+        {{ end}}
+      </dl>
+    </div>
+  </div>
+</div>
