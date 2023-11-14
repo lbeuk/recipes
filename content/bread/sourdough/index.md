@@ -22,7 +22,7 @@ recipe:
     - Sourdough Bread:
         Primary: Yes
         Ingredients:
-            - Autolyse mix:
+            - Ferment mix:
                 CREF: Ferment Mix
                 Amount: All
             - Kosher salt:
