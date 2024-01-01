@@ -8,7 +8,7 @@ recipe:
     - Autolyse Mix:
         Ingredients:
             - Hard white spring wheat flour, whole grain:
-                Amount: 1100g
+                Amount: 1400g
             - Water:
                 Amount: 800g
         Instructions:
@@ -39,29 +39,20 @@ recipe:
                 CREF: Yeast Sponge
                 Amount: All
             - Kosher salt:
-                Amount: 1T
+                Amount: 26g
             - Honey:
                 Amount: 1/2C
             - EV olive oil:
                 Amount: 1/2C
                 Note: Any vegetable oil should suffice, I like to use EVO.
-            - Hard white spring wheat flour, whole grain:
-                Amount: 300g
-                Note: For dusting the surface, anticipate most of this being absorbed into the dough.
         Instructions:
             - >
-                Mix oil and honey together in the measuring cup, I find that this helps loosen
+                Mix oil and honey, and salt together in the measuring cup, I find that this helps loosen
                 up the honey so that less of it sticks to the walls of the cup.
             - >
-                Combine all ingredients (except the dusting flour) by forming your
-                hand into a flat hook shape and mixing. Mix until dough is firm enough
-                to knead on counter.
+                Pour the combined oil, honey, salt, and yeast sponge into the autolyse.
             - >
-                Cover an area on your work surface well with some of the dusting flour.
-                Don't use it all immediately, more will be put down as the dough ball
-                picks up and incorperated the flour.
-            - >
-                Knead the dough ball using a stretch and fold method for roughly 10
+                Knead the dough ball in the mixing bowl using a stretch and fold method for roughly 10
                 minutes. The ending dough ball should be able to be stretched thin,
                 although not quite forming a window pane as per the nature of whole wheat
                 flour. Continue to cover the ball in flour as it starts sticking to your hands.
