@@ -33,3 +33,4 @@ The recipe is very flexible, and can be scaled up or down. I usually make my bat
 
 Other ingredients can be easily added to this mix as well, such as slivered almonds, coconut, flax, wheat bran, amaranth, buckwheat, kumut, etc. The dried fruits add sweetness, so find what your desired fruit to grain/nut ratio is, and you can customize the ingredients from there.
 
+All ingredients that I have listed were easily found at Natural Grocers in the bulk section.
