@@ -11,7 +11,7 @@ recipe:
                 Amount: 250g
             - Einkorn wheat flour, whole grain:
                 Amount: 250g
-            - Hard Cider
+            - Hard Cider:
                 Amount: 360g
                 Note: 1 can of cider, I use Tablott's Scrappy Apple.
         Instructions:
