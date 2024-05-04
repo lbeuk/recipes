@@ -10,7 +10,7 @@ recipe:
             - Hard white spring wheat flour, whole grain:
                 Amount: 1400g
             - Water:
-                Amount: 800g
+                Amount: 850g
         Instructions:
             - Mix flour and water with hand until combined.
             - Let sit for one hour.
@@ -20,7 +20,7 @@ recipe:
     - Yeast Sponge:
         Ingredients:
             - Warm water:
-                Amount: 100g
+                Amount: 50g
             - Active dry yeast:
                 Amount: 2T
         Instructions:
