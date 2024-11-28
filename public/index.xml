@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luke&#39;s Recipes</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Luke&#39;s Recipes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Nov 2024 12:24:28 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Einkorn Oat Loaf</title>
+      <link>http://localhost:1313/bread/einkorn-oat/</link>
+      <pubDate>Thu, 28 Nov 2024 12:24:28 -0700</pubDate>
+      <guid>http://localhost:1313/bread/einkorn-oat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hamburger Buns</title>
+      <link>http://localhost:1313/bread/burger-buns/</link>
+      <pubDate>Thu, 18 Apr 2024 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bread/burger-buns/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Banana Bread (yeast leavened)</title>
+      <link>http://localhost:1313/bread/banana-yeast-bread/</link>
+      <pubDate>Mon, 01 Apr 2024 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bread/banana-yeast-bread/</guid>
+      <description>I wanted to make banana bread that was yeast leavened and less cakey than the traditional recipe. What came out was exactly what I was looking for. This recipe is not as sweet as traditional banana bread, and has a subtler banana flabor, but is still obviously banana bread and just as good to snack on.</description>
+    </item>
+    <item>
+      <title>Cider Bread</title>
+      <link>http://localhost:1313/bread/cider-bread/</link>
+      <pubDate>Mon, 25 Mar 2024 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bread/cider-bread/</guid>
+      <description>I made this recipe on an impulse after wondering how bread would taste if I used hard cider in place of water. I find it to be a good, heartier loaf, thanks largely in part to the einkorn wheat flour. It has a slight cider flavor, but is not overwhelmingly so, and it is definitely not a sweet bread.</description>
+    </item>
+    <item>
+      <title>Morning Muesli</title>
+      <link>http://localhost:1313/breakfast/muesli/</link>
+      <pubDate>Wed, 07 Feb 2024 17:41:42 +0000</pubDate>
+      <guid>http://localhost:1313/breakfast/muesli/</guid>
+      <description>Muesli is somewhat like an uncooked granola without added sugar. It simply consists of whole grains, nuts and seeds, and dried fruit. I like to eat it the &amp;ldquo;swiss style&amp;rdquo;, which includes mixing the muesli mix with yogurt and a grated apple, and letting it soak overnight in the fridge.&#xA;The recipe is very flexible, and can be scaled up or down. I usually make my batches using a mass unit of 100g, which makes me a bit over a gallon freezer bag of muesli.</description>
+    </item>
+    <item>
+      <title>Sourdough Bread</title>
+      <link>http://localhost:1313/bread/sourdough/</link>
+      <pubDate>Sun, 12 Nov 2023 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bread/sourdough/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Honey Wheat Bread</title>
+      <link>http://localhost:1313/bread/honey-wheat/</link>
+      <pubDate>Sun, 22 Oct 2023 13:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bread/honey-wheat/</guid>
+      <description>This is the sandwhich loaf I was raised on, and is the primary recipe I continue to use for day-to-day bread consumption. The bread comes out tender and light, slightly sweet from the honey, and without the bitter taste that often comes from whole whea bread thanks to using hard white wheat, rather than hard red wheat (which is often the base for commercial bread flours).&#xA;The recipe usually yields enough dough for 3 loaves of roughly 3lb 10oz (loaf size will vary depending on the pan you use to bake in), plus a little extra that I will use to make snack-sized buns in a muffin pan.</description>
+    </item>
+  </channel>
+</rss>

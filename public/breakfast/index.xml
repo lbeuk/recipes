@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Breakfast on Luke&#39;s Recipes</title>
+    <link>http://localhost:1313/breakfast/</link>
+    <description>Recent content in Breakfast on Luke&#39;s Recipes</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Feb 2024 17:41:42 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/breakfast/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Morning Muesli</title>
+      <link>http://localhost:1313/breakfast/muesli/</link>
+      <pubDate>Wed, 07 Feb 2024 17:41:42 +0000</pubDate>
+      <guid>http://localhost:1313/breakfast/muesli/</guid>
+      <description>Muesli is somewhat like an uncooked granola without added sugar. It simply consists of whole grains, nuts and seeds, and dried fruit. I like to eat it the &amp;ldquo;swiss style&amp;rdquo;, which includes mixing the muesli mix with yogurt and a grated apple, and letting it soak overnight in the fridge.&#xA;The recipe is very flexible, and can be scaled up or down. I usually make my batches using a mass unit of 100g, which makes me a bit over a gallon freezer bag of muesli.</description>
+    </item>
+  </channel>
+</rss>
